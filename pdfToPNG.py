@@ -3,11 +3,11 @@ import time
 from pdf2image import convert_from_path
 from os import listdir
 from os.path import isfile, join
-# import sys
+
 start = time.time()
 
-mypath = os.getcwd()  # sys.argv[1]
-outpath = os.getcwd()  # sys.argv[2]
+mypath = os.getcwd()
+outpath = os.getcwd()
 onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f))]
 
 for n in range(0, len(onlyfiles)):
