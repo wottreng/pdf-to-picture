@@ -1,17 +1,15 @@
 # pdf-to-picture
-turn any pdf into a picture file
-updated for distribution: Version 2.0
+turn any pdf into a picture file \
+updated for distribution: Version 3.0
 
 ## How to use
 * download repository
-* unzip `pdf_to_picture.dist.zip`
-* add pdf to current directory that has `pdf_to_picture.dist` in it
-* open command line and call `./pdf_to_picture.dist/main`
+* add pdf to current directory that has `pdf_to_image.bin` in it
+* open command line and call `./pdf_to_image.bin`
 * the script will find pdf files in current directory and turn them into images (.png files)
 
 ## alternate how to
-* create system link to `./pdf_to_picture.dist/main` 
-* add link to main PATH ex. `/bin`
+* move `pdf_to_image.bin` to system path ex. `/bin`
 * call from any directory to turn pdf into image
 
 ### Functional Note:
