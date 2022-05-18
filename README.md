@@ -3,9 +3,10 @@ turn any pdf into a picture file \
 updated for distribution: Version 3.0
 
 ## How to use
-* download repository
-* add pdf to current directory that has `pdf_to_image.bin` in it
-* open command line and call `./pdf_to_image.bin`
+* download binary to working directory, make it excutable and run it:
+```markdown  
+wget https://github.com/wottreng/pdf-to-picture/raw/main/pdf_to_image.bin && chmod 777 pdf_to_image.bin && ./pdf_to_image.bin
+```
 * the script will find pdf files in current directory and turn them into images (.png files)
 
 ## alternate how to
